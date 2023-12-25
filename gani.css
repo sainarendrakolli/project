@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+        box-sizing: border-box;}
+       
+body{
+background-size: cover;
+    background-position:center:
+    
+    justify-content: center;
+    display: flex;
+    
+}
+h2{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+
+.cover{
+    width: 2500px;
+    height: 1000px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    margin: 20px;
+    width: 600px;
+    height: 400px;
+    flex :1;
+}
+img{
+    height: 250px;
+    width: 100%;
+}
+button{
+    background-color: blue;
+    font-size: 15px;
+    align-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+
+}
+.home{
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    align-items: center;
+    
+    color: antiquewhite;
+    padding: 800px 10px 20px 0px;
+}

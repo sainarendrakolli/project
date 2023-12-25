@@ -1,0 +1,62 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+div {
+    width: 100%; /* Use 100% width to take the full width of the container */
+    height: 900px;
+    display: flex; /* Use flexbox to center the content */
+flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    border: 0px black solid;
+    background-color: white;
+    
+}
+div:hover{
+background-color: red;
+color: antiquewhite;
+font-size: 20px;
+transform: translate(20px);
+
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+p {
+    width: 600px;
+    padding: 20px; /* Adjust padding as needed */
+}
+h2{
+font-size: 20px;
+ text-transform:uppercase ;
+ justify-content: first baseline;
+
+}
+h2, p {
+    margin: 0; /* Remove default margin for h2 and p */
+    padding: 20px; /* Adjust padding as needed */}
+    button{
+
+width: 40px;
+height: 30px;
+background-color: beige;
+font-size: 15px;
+color: black;
+
+    }
+    h1{
+font-size: 30px;
+text-transform: uppercase;
+align-items: center;
+
+
+    }
